@@ -1,277 +1,0 @@
-TSimpleSequencerBasics
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist Info.plist
-cCpResource ../resources/CinderApp.icns DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth SimpleSequencerBasics_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
-c000000004F6920A400000000000000EE
-t1332289700
-s238
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c000000004F8C4A460000000000006500
-t1334594118
-s25856
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004F8C4A460000000000025E48
-t1334594118
-s155208
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c000000004F8C4A460000000000005FA8
-t1334594118
-s24488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c000000004F8C4A4600000000000001E5
-t1334594118
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004F8C4A460000000000014894
-t1334594118
-s84116
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004F42AFEC0000000000006530
-t1329770476
-s25904
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004F42AFEC0000000000006560
-t1329770476
-s25952
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004FB1D79D000000000007CED0
-t1337055133
-s511696
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000004FB1D7A5000000000002E350
-t1337055141
-s189264
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000004FB1D7AA00000000004B7F60
-t1337055146
-s4947808
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c000000004FB1D7AA000000000032B7E0
-t1337055146
-s3323872
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp
-c000000004FBBD76C0000000000000C32
-t1337710444
-s3122
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../resources/CinderApp.icns
-c000000004F8C4B45000000000001BEB5
-t1334594373
-s114357
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp
-c000000004FBD08AF0000000000000110
-t1337788591
-s272
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp
-c000000004FBD08D20000000000000560
-t1337788626
-s1376
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp
-c000000004FBC198000000000000008A5
-t1337727360
-s2213
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasics.LinkFileList
-c000000004FBD096B0000000000000407
-t1337788779
-s1031
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/MacOS/SimpleSequencerBasics
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/SimpleSequencerBasics_Prefix.pch
-c000000004FBCF84F0000000000000093
-t1337784399
-s147
-i<Cocoa/Cocoa.h>
-
-NInfo.plist
-c000000004FBCF84F000000000000035E
-t1337784399
-s862
-
-CBuild AST from /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp
-r0
-
-CBuild AST from /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp
-r0
-
-CBuild AST from /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp
-r0
-
-CBuild AST from /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd788a8eb406db541^3cdcb6eb406db541^---0#1#0#--18"Check dependencies36"F3E79B70-CD78-4DE7-BA4D-D56972FB98D0-
-
-CCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s359481579.816379
-e359481588.035976
-r1
-xCompileC
-xDerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cppdf34d1eb406db541^983509f4406db541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp0000000000000000^4397"CompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o ../src/MyAnimation.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-generated-files.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-own-target-headers.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-all-target-headers.hmap -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/include -I../../../../../boost -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources/i386 -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources -F/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug -include /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch -MMD -MT dependencies -MF /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.d --serialize-diagnostics /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.dia -c /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/MyAnimation.cpp -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/MyAnimation.o36"29A33E9C-1E84-418B-807C-807B0B62439D-
-
-CCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s359481579.816914
-e359481589.949091
-r1
-xCompileC
-xDerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cppfd82d1eb406db541^16f8f2f5406db541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp0000000000000000^4441"CompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o ../../../include/SimpleSequencer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-generated-files.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-own-target-headers.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-all-target-headers.hmap -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/include -I../../../../../boost -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources/i386 -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources -F/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug -include /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch -MMD -MT dependencies -MF /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.d --serialize-diagnostics /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.dia -c /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../../../include/SimpleSequencer.cpp -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencer.o36"6C2D7B62-2F3E-4496-BD94-A3C3149F2BC5-
-
-CCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s359481579.815765
-e359481589.445426
-r0
-xCompileC
-xDerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:19:5: error: unknown type name 'MyAnimation'
-o    MyAnimation myAnim;
-o    ^
-o/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:35:40: error: use of undeclared identifier 'MyAnimation'
-o        s.addStep( 1.0f, boost::bind( &MyAnimation::animateIn, &myAnim), &myAnim.signal_onAnimateIn );
-o                                       ^
-o/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:36:40: error: use of undeclared identifier 'MyAnimation'
-o        s.addStep( 2.0f, boost::bind( &MyAnimation::start, &myAnim), &myAnim.signal_onComplete );
-o                                       ^
-o/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:37:40: error: use of undeclared identifier 'MyAnimation'
-o        s.addStep( 3.0f, boost::bind( &MyAnimation::animateOut, &myAnim), &myAnim.signal_onAnimateOut );
-o                                       ^
-o/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:38:44: error: use of undeclared identifier 'MainView'
-o        s.signal_onComplete.connect( bind(&MainView::onAnimComplete_handler, this));
-o                                           ^
-o5 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Compile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp37fad0eb406db541^44fa71f5406db541^-1574"/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:19:5: error: unknown type name 'MyAnimation'    MyAnimation myAnim;    ^/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:35:40: error: use of undeclared identifier 'MyAnimation'        s.addStep( 1.0f, boost::bind( &MyAnimation::animateIn, &myAnim), &myAnim.signal_onAnimateIn );                                       ^/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:36:40: error: use of undeclared identifier 'MyAnimation'        s.addStep( 2.0f, boost::bind( &MyAnimation::start, &myAnim), &myAnim.signal_onComplete );                                       ^/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:37:40: error: use of undeclared identifier 'MyAnimation'        s.addStep( 3.0f, boost::bind( &MyAnimation::animateOut, &myAnim), &myAnim.signal_onAnimateOut );                                       ^/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp:38:44: error: use of undeclared identifier 'MainView'        s.signal_onComplete.connect( bind(&MainView::onAnimComplete_handler, this));                                           ^5 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@31"Unknown type name 'MyAnimation'-359481589#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@145"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/src/SimpleSequencerBasicsApp.cpp0000000000000000^18#4#18#4#350#0#11"Parse Issue--2@42"Use of undeclared identifier 'MyAnimation'-359481589#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@145"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/src/SimpleSequencerBasicsApp.cpp0000000000000000^34#39#34#39#681#0#14"Semantic Issue--2@42"Use of undeclared identifier 'MyAnimation'-359481589#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@145"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/src/SimpleSequencerBasicsApp.cpp0000000000000000^35#39#35#39#784#0#14"Semantic Issue--2@42"Use of undeclared identifier 'MyAnimation'-359481589#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@145"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/src/SimpleSequencerBasicsApp.cpp0000000000000000^36#39#36#39#882#0#14"Semantic Issue--2@39"Use of undeclared identifier 'MainView'-359481589#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@145"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/src/SimpleSequencerBasicsApp.cpp0000000000000000^37#43#37#43#991#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@154"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp0000000000000000^4475"CompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o ../src/SimpleSequencerBasicsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-generated-files.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-own-target-headers.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-all-target-headers.hmap -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/include -I../../../../../boost -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources/i386 -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources -F/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug -include /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch -MMD -MT dependencies -MF /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.d --serialize-diagnostics /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.dia -c /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/SimpleSequencerBasicsApp.cpp -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/SimpleSequencerBasicsApp.o36"F4319E0D-7F60-4CEC-AB3D-AC2BAA788EFA-
-
-CCompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s359481579.816544
-e359481588.381701
-r1
-xCompileC
-xDerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cppc152d1eb406db541^91b661f4406db541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp0000000000000000^4409"CompileC DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o ../src/StandardInOut.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-generated-files.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-own-target-headers.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-all-target-headers.hmap -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/include -I../../../../../boost -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources/i386 -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources -F/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug -include /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch -MMD -MT dependencies -MF /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.d --serialize-diagnostics /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.dia -c /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../src/StandardInOut.cpp -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/Objects-normal/i386/StandardInOut.o36"A6F3F505-A2EA-4894-9B69-7B18FD96439A-
-
-CCpResource ../resources/CinderApp.icns DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns
-s359481579.752232
-e359481579.755480
-r1
-xCpResource
-x../resources/CinderApp.icns
-xDerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns21aec0eb406db541^7767c1eb406db541^---0#0#0#-19%DVTDocumentLocation2@233"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns000000000080d041^815"CpResource ../resources/CinderApp.icns DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources/CinderApp.icns    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/../resources/CinderApp.icns /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Resources36"80E17320-4131-48FA-928E-F8D472C456A2-
-
-CLd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/MacOS/SimpleSequencerBasics normal i386
-r0
-
-CProcessInfoPlistFile /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist Info.plist
-s359481579.739805
-e359481579.744116
-r1
-xProcessInfoPlistFile
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist1e8bbdeb406db541^bdc6beeb406db541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/Info.plist0000000000000000^741"ProcessInfoPlistFile DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist Info.plist    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app/Contents/Info.plist36"AD1CE50A-8BA4-4D86-B7CD-7E23882979FD-
-
-CProcessPCH++ /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth SimpleSequencerBasics_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s359481579.772272
-e359481579.809488
-r1
-xProcessPCH++
-x/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth
-xSimpleSequencerBasics_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile SimpleSequencerBasics_Prefix.pchb79bc8eb406db541^2c44cfeb406db541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/SimpleSequencerBasics_Prefix.pch0000000000000000^4220"ProcessPCH++ DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth SimpleSequencerBasics_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-generated-files.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-own-target-headers.hmap -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-all-target-headers.hmap -iquote /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/SimpleSequencerBasics-project-headers.hmap -iquote../../../../../include -iquote../include -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/include -I../../../../../boost -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources/i386 -I/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/SimpleSequencerBasics.build/Debug/SimpleSequencerBasics.build/DerivedSources -F/Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug --serialize-diagnostics /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.dia -c /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/SimpleSequencerBasics_Prefix.pch -o /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.pth -MMD -MT dependencies -MF /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Intermediates/PrecompiledHeaders/SimpleSequencerBasics_Prefix-ejvewubqyqfnpxdqqurbpefuvoml/SimpleSequencerBasics_Prefix.pch.d36"C31315E2-7EFE-4AE1-BD8F-7D55D720717C-
-
-CProcessPCH++ /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Index/PrecompiledHeaders/SimpleSequencerBasics_Prefix-hfsghooeaczwrhdkxtygijwjgufa_ast/SimpleSequencerBasics_Prefix.pch.pth SimpleSequencerBasics_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/redpaperheart/REDPAPERHEART/code/cpp/cinder_git/blocks/rph-SimpleSequencer/samples/basics/xcode/DerivedData/SimpleSequencerBasics/Build/Products/Debug/SimpleSequencerBasics.app
-r0
-
