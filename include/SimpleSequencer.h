@@ -30,23 +30,28 @@ struct SimpleSequencerItem{
         startFn = sFn;
         signal = sig;
     }
+    SimpleSequencerItem(float s, std::function<void ()> sFn){
+        step = s;
+        startFn = sFn;
+        signal = NULL;
+    }
 };
 
 class SimpleSequencer {
-  public:
+public:
     SimpleSequencer();
     ~SimpleSequencer();
     
     virtual void addStep(float step, std::function<void ()> startFn , boost::signals2::signal<void ()> *signal);
-    //virtual void addStep(float step, std::function<void ()> startFn , std::function<void ()> signalFn);
     virtual void addStep(SimpleSequencerItem);
+    virtual void addASynchStep(float step, std::function<void ()> startFn);
     
     //virtual void update();
     virtual void start();
     
     boost::signals2::signal<void ()> signal_onComplete;
     
-  protected:
+protected:
     virtual void next();
     virtual void onItemComplete();
     virtual void onSequenceComplete();

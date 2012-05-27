@@ -177,8 +177,8 @@
 		B39BCA4B156D358900489239 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B39BCA4C156D359B00489239 /* SimpleSequencer.cpp */,
 				B39BCA4D156D359B00489239 /* SimpleSequencer.h */,
+				B39BCA4C156D359B00489239 /* SimpleSequencer.cpp */,
 			);
 			name = include;
 			sourceTree = "<group>";

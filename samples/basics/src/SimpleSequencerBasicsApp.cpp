@@ -14,7 +14,7 @@ class SimpleSequencerBasicsApp : public AppBasic {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
-    
+    void trace(string msg);
     void onAnimComplete_handler();
     
     MyAnimation myAnim;
@@ -37,12 +37,18 @@ void SimpleSequencerBasicsApp::mouseDown( MouseEvent event )
         
         console() << "Initialising and starting a sequence of tasks:" << endl;
         bIsAnimating = true;
+        int count = 0;
         //SimpleSequencer s;
-        s.addStep( 1.0f, boost::bind( &MyAnimation::animateIn, &myAnim), &myAnim.signal_onAnimateIn );
+        s.addStep( count++, boost::bind( &MyAnimation::animateIn, &myAnim), &myAnim.signal_onAnimateIn );
         
-        s.addStep( 5.0f, boost::bind( &MyAnimation::start, &myAnim), &myAnim.signal_onComplete );
+        s.addStep( count, boost::bind( &MyAnimation::animateOut, &myAnim), &myAnim.signal_onAnimateOut );
+        s.addASynchStep( count++, boost::bind( &SimpleSequencerBasicsApp::trace, this, "trace step called with animateOut of myAnim."));
         
-        s.addStep( 3.0f, boost::bind( &MyAnimation::animateOut, &myAnim), &myAnim.signal_onAnimateOut );
+        s.addStep( count++, boost::bind( &MyAnimation::start, &myAnim), &myAnim.signal_onComplete );
+
+        s.addASynchStep( 50, boost::bind( &SimpleSequencerBasicsApp::trace, this, "step 50: asynch step called."));
+        s.addASynchStep( 49, boost::bind( &SimpleSequencerBasicsApp::trace, this, "step 49: asynch step called."));
+        
         s.start();
         
     }else{
@@ -56,11 +62,11 @@ void SimpleSequencerBasicsApp::onAnimComplete_handler()
     console() << "All tasks tcomplete ..ready for some more interaction." << endl;
 }
 
-void SimpleSequencerBasicsApp::update()
-{
-    
+void SimpleSequencerBasicsApp::trace(string msg){
+    console() << msg << endl;
 }
 
+void SimpleSequencerBasicsApp::update(){}
 void SimpleSequencerBasicsApp::draw()
 {
 	// clear out the window with black

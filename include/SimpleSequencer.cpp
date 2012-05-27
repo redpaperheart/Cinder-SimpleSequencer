@@ -19,34 +19,44 @@ void SimpleSequencer::addStep(SimpleSequencerItem item ){
     mSteps[item.step].push_back( &item );
 }
 
+void SimpleSequencer::addASynchStep(float step, std::function<void ()> startFn){
+    if(bDebug)console() << "SimpleSequencer::addASynchStep(){}, add to step: "<< step << endl;
+    mSteps[step].push_back( new SimpleSequencerItem(step, startFn) );
+}
+
+
 
 void SimpleSequencer::start(){
     if(bDebug)console() << "SimpleSequencer::start(){}, total steps:"<< mSteps.size() << endl;
-//    for ( map<float, vector<SimpleSequencerItem *> >::iterator mIt=mSteps.begin() ; mIt != mSteps.end(); mIt++ ){
-//        for( vector<SimpleSequencerItem *>::iterator vIt = (*mIt).second.begin(); vIt != (*mIt).second.end(); vIt++){
-//            console () << (*vIt)->step << ", ";
-//        }
-//        console () << endl;
-//    }
+    //    for ( map<float, vector<SimpleSequencerItem *> >::iterator mIt=mSteps.begin() ; mIt != mSteps.end(); mIt++ ){
+    //        for( vector<SimpleSequencerItem *>::iterator vIt = (*mIt).second.begin(); vIt != (*mIt).second.end(); vIt++){
+    //            console () << (*vIt)->step << ", ";
+    //        }
+    //        console () << endl;
+    //    }
     next();
 }
 
 
 void SimpleSequencer::next(){
-
+    
     if(mSteps.size() > 0){
-        //ds: sort array by stepId:
-        //steps.sortOn('stepId', Array.NUMERIC);
         mSemLocks.clear();
         
         vector<SimpleSequencerItem *> step = mSteps.begin()->second;
         if(bDebug)console() << "SimpleSequencer::next(), step: " << mSteps.begin()->first << ", parallel tasks:" << mSteps.begin()->second.size() << endl;
         for( vector<SimpleSequencerItem *>::iterator it = step.begin(); it != step.end(); it++){
-            (*it)->connection = (*it)->signal->connect( bind( &SimpleSequencer::onItemComplete, this));
+            if((*it)->signal != NULL){
+                // connect to signals
+                (*it)->connection = (*it)->signal->connect( bind( &SimpleSequencer::onItemComplete, this));
+            }
             addSemaphore();
         }
         for( vector<SimpleSequencerItem *>::iterator it = step.begin(); it != step.end(); it++){
             (*it)->startFn();
+            if((*it)->signal == NULL){
+                onItemComplete();
+            }
         }
     }else{
         onSequenceComplete();
@@ -60,7 +70,7 @@ void SimpleSequencer::onItemComplete(){
 }
 
 void SimpleSequencer::onSequenceComplete(){
-    if(bDebug)console() << "SimpleSequencer::onSequenceComplete(){} " << endl;
+    if(bDebug)console() << "SimpleSequencer::onSequenceComplete(){}: " << endl;
     signal_onComplete();
 }
 
@@ -90,9 +100,3 @@ void SimpleSequencer::checkSemaphores(){
         }
     }
 }
-
-
-
-//void SimpleSequencer::update(){
-//    console() << "SimpleSequencer::update(){}" << endl;
-//}
