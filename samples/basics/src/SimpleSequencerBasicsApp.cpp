@@ -1,3 +1,9 @@
+//
+//  SimpleSequencerBasicsApp
+//
+//  Created by Daniel Scheibel on 5/23/11.
+//  Copyright (c) 2012 Red Paper Heart. All rights reserved.
+//
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 
